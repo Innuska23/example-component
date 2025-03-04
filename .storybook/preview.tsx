@@ -41,7 +41,7 @@ export default preview
 function withToasts(Story: any) {
   return (
     <>
-      <Story />
+      {/* <Story />
       <ToastContainer
         position="top-center"
         autoClose={5000}
@@ -53,7 +53,7 @@ function withToasts(Story: any) {
         draggable
         pauseOnHover
         theme="dark"
-      />
+      /> */}
     </>
   )
 }
